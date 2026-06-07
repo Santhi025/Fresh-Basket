@@ -36,7 +36,9 @@ const SendOtp = () => {
 
       navigate("/verify-otp");
     } catch (error) {
-      toast.error("Failed to send OTP"); 
+      // toast.error("Failed to send OTP"); 
+      toast.error(error.response?.data?.message || "Failed to send OTP");
+      console.error("Error sending OTP:", error);
     } finally {
       setLoading(false);
     }
