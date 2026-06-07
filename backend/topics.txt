@@ -1,0 +1,11 @@
+packages
+
+express
+nodemon
+mongoose
+dotenv
+bcryptjs
+jwt
+cors
+multer
+nodemailer
