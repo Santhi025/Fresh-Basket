@@ -1,7 +1,7 @@
 
 
-export const productUrl="http://localhost:3000/api"
-export const imageUrl="http://localhost:3000"
-export const adminUrl="http://localhost:3000/admin"
-export const emailUrl="http://localhost:3000/email"
-export const cartUrl="http://localhost:3000/cart"
+export const productUrl="https://fresh-basket-u2jd.onrender.com/api"
+export const imageUrl="https://fresh-basket-u2jd.onrender.com"
+export const adminUrl="https://fresh-basket-u2jd.onrender.com/admin"
+export const emailUrl="https://fresh-basket-u2jd.onrender.com/email"
+export const cartUrl="https://fresh-basket-u2jd.onrender.com/cart"

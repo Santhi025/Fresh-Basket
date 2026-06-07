@@ -23,6 +23,9 @@ mongoose.connect(process.env.MONGO_URI)
     })
 
 app.use(cors());
+app.get("/", (req, res) => {
+    res.send("Backend running");
+});
 app.use("/api", productRoutes)
 app.use("/admin", adminRoutes)
 app.use("/email", emailRoutes)
